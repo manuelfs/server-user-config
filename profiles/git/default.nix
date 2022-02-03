@@ -31,8 +31,8 @@
       merge.tool = "vimdiff";
       branch.autosetuprebase = "always";
 
-      user.name = "Physicist";
-      user.email = "lhcb@physics.umd.edu";
+      user.name = "Manuel Franco Sevilla";
+      user.email = "manuelf@umd.edu";
     };
 
     aliases = {

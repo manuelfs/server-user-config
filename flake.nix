@@ -20,8 +20,8 @@
           stateVersion = "21.11"; # typically you don't change this
 
           # change these yourself
-          homeDirectory = "/home/physicist";
-          username = "physicist";
+          homeDirectory = "/home/manuelf";
+          username = "manuelf";
 
           configuration = { pkgs, lib, ... }: {
             nixpkgs.overlays = [ overlay ];
@@ -42,6 +42,7 @@
               # HEP
               root
               sxiv # image viewer
+	      emacs
 
               # define additional packages here
               # you can search the package names on https://search.nixos.org/packages
